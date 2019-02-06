@@ -8,7 +8,7 @@ const placeShcema = new Schema(
       type: String,
       enum: ["coffee shop", "bookstore"]
     },
-    location: Object
+    location: Object//mirar el requerimiento de objetos. Esto no tira.
   },
   {
     timestamps: true

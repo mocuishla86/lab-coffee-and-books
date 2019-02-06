@@ -34,7 +34,23 @@ function placeMymark() {
       })
   })
 }
-
+// function showMarkers() {
+//   axios.get(`${server}/airports/300`).then((airports) => {
+//       airports.data.forEach((airport) => {
+//           if (airport.coords === undefined || airport.coords.coordinates === undefined) return
+//           if (typeof airport.coords.coordinates[0] === "number" && typeof airport.coords.coordinates[1] === "number") {
+//               new google.maps.Marker({
+//                   map: theMap,
+//                   position: {
+//                       lat: airport.coords.coordinates[1],
+//                       lng: airport.coords.coordinates[0]
+//                   },
+//                   title: airport.name
+//               })
+//           }
+//       })
+//   })
+// }
 //placeMymark();
 
 document.getElementById("b1").onclick = function () {

@@ -9,4 +9,8 @@ const router  = express.Router();
 router.get('/coffeeshops', (req, res, next) => {
   res.render('index');
 });
+
+// //router.post('/coffeeshops')=>{
+//   coffeeShop.create...
+// }
 module.exports = router;
